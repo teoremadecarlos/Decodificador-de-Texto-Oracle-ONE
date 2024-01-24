@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura Challenge 1</title>
+    <script src="assets/app.js" defer></script>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="background"></div>
+    <header>
+      <img
+        src="assets/Alura Logo.png"
+        width="32"
+        height="48"
+        alt="Logo da alura" />
+    </header>
+
+    <main>
+      <div>
+        <textarea type="text" id="user-input" placeholder="Digite seu texto" cols="60" rows="8"></textarea>
+        <div class="action">
+          <div class="information">
+            <img
+              alt="Icone de exclamação"
+              src="assets/Exclamation Icon.png"
+              width="16"
+              height="16" />
+            <p>Digite apenas letras minúsculas e sem acento.</p>
+          </div>
+          <div class="action-buttons">
+            <button class="button-style-1" id="crypt">Criptografar</button>
+            <button class="button-style-2" id="decrypt">Descriptografar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="result result-inactive" id="result">
+        <img
+          src="assets/Not Found.png"
+          alt="Desenho de uma mulher tentando procurar algo, porém não encontrou" />
+        <h1 class="result-title">Nenhuma mensagem encontrada</h1>
+        <p class="result-text" id="result-text">
+          Digite um texto que você deseja criptografar ou descriptografar.
+        </p>
+        <button class="button-style-2 mt-auto" id="copy">Copiar</button>
+      </div>
+    </main>
+    <footer>
+      <div class="main-footer-content">
+        <p class="footer-text">Challenge One | Decodificador de texto</p>
+        <div class="socials-container">
+          <ul>
+            <li>
+              <a
+                href="https://github.com/teoremadecarlos"
+                target="_blank">
+                <img
+                  src="assets/GitHub Logo.png"
+                  alt="Logo do GitHub"
+                  width="24"
+                  height="24" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
