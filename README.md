@@ -13,7 +13,7 @@ Para clonar e rodar esta aplicação em sua maquina localmente, você precisará
 
 ```bash
 # Clonar esse repositório
-git clone https://github.com/MatheusVSN/Decodificador-de-Texto---Alura-Challenges-Oracle-ONE
+git clone https://github.com/teoremadecarlos/Decodificador-de-Texto-Oracle-ONE
 ```
 
 Com o repositório baixado, você pode executar o arquivo `index.html` e seu navegador irá executar a aplicação para você
