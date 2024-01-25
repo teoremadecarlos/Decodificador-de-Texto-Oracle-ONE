@@ -16,4 +16,4 @@ Para clonar e rodar esta aplicação em sua maquina localmente, você precisará
 git clone https://github.com/teoremadecarlos/Decodificador-de-Texto-Oracle-ONE
 ```
 
-Com o repositório baixado, você pode executar o arquivo `index.html` e seu navegador irá executar a aplicação para você
+Com o repositório baixado, você pode executar o arquivo `index.html` e seu navegador irá executar o decodificador
